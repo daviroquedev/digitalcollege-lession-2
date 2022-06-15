@@ -42,11 +42,9 @@ html {
 
 .products-list__item {
   border-width: 1px;
-  border-style: solid;
+  border-style: dashed;
   border-color: #ccc;
-  min-height: 80px;
   border-radius: 12px;
-  align-items: center;
   padding: 20px;
 }
 
@@ -87,8 +85,9 @@ html {
   border-width: 1px;
   border-style: solid;
   border-color: #ccc;
-  background-color: #ff0000;
-  color: #666;
+  background-color: #181c1e;
+  color: #fff;
+  cursor: pointer;
   font-size: 14px;
   padding: 10px 20px;
   border-radius: 5px;
@@ -111,9 +110,18 @@ html {
   box-sizing: border-box;
   height: 100vh;
   width: 100vw;
+  max-width: 100%;
   left: 0;
   top: 0;
   padding: 16px;
+}
+
+.modal.modal--open {
+  display: flex;
+}
+
+.modal.modal--open .modal__container {
+  box-shadow: 0 0 10px #333;
 }
 
 .modal__container {
@@ -121,6 +129,7 @@ html {
   flex: 1;
   border-radius: 10px;
   overflow: hidden;
+  max-width: 640px;
 }
 
 .modal__header {

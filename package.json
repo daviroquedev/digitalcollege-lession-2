@@ -27,7 +27,7 @@
     "postcss": "^8.4.14",
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
-    "rollup": "^2.75.5",
+    "rollup": "^2.75.6",
     "rollup-plugin-copy": "^3.4.0",
     "rollup-plugin-html2": "^3.1.0",
     "rollup-plugin-livereload": "^2.0.5",
