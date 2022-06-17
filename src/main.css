@@ -101,6 +101,12 @@ html {
   color: #fff;
 }
 
+.button.button--success {
+  border-color: #5cb85c;
+  background-color: #5cb85c;
+  color: #fff;
+}
+
 .modal {
   background-color: #000000a9;
   position: fixed;
