@@ -36,6 +36,7 @@ html {
 
 .products-list {
   list-style: none;
+
   padding: 0;
   margin: 0;
 }
@@ -53,7 +54,7 @@ html {
 }
 
 .products-list__item-thumbnail {
-  display: flex;
+  display: none;
   justify-content: center;
   margin-bottom: 24px;
 }
@@ -176,4 +177,17 @@ html {
 .product__details-table td {
   border: 1px solid #f0f0f0;
   padding: 8px;
+}
+
+@media (min-width: 1080px) {
+  .products-list {
+    display: flex;
+  }
+  .products-list__item {
+    flex: 1;
+  }
+
+  .products-list__item-thumbnail {
+    display: flex;
+  }
 }
