@@ -4,4 +4,4 @@ import { Modal } from './modal'
 const modalHandler = Modal()
 
 modalHandler.init()
-modalHandler.openModal(1)
+modalHandler.openModal()

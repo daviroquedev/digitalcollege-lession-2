@@ -50,7 +50,7 @@ html {
 }
 
 .products-list__item:not(:last-child) {
-  margin-bottom: 24px;
+  margin-bottom: 0px;
 }
 
 .products-list__item-thumbnail {
