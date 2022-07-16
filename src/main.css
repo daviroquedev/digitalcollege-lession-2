@@ -15,6 +15,7 @@ html {
   min-height: 60px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .page__header h2 {
@@ -178,6 +179,37 @@ html {
   border: 1px solid #f0f0f0;
   padding: 8px;
 }
+
+.sideBar{
+  background-color: #585757;
+  color: #ccc;
+  position: fixed;
+  height: 100%;
+  right: 0;
+  top:0;
+  width: 320px;
+  box-shadow: 0 0 20px  #585757;
+  display: none;
+}
+
+.sideBar__header{
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px;
+}
+
+.sideClose-button{
+  background-color:  #585757;
+  color: white;
+  border-style: none; 
+  cursor: pointer;
+}
+
+
+.sideBar.sideBar--open{
+  display: block;
+}
+
 
 @media (min-width: 1080px) {
   .products-list {
