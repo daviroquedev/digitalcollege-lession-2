@@ -2,8 +2,10 @@ export function ProductsList() {
   function _li(products) {
     return `<li class="products-list__item">
       <div class="products-list__item-thumbnail">
+        <a href="produto.html">
         <img class="product__thumbnail" src=${products.img} />
       </div>
+      </a>
       <div class="products-list__item-main-content">
         <h4 class="product__name">${products.modelo}</h4>
         <p class="product__description">${products.description}</p>
