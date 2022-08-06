@@ -2,7 +2,7 @@
   "name": "digital-college-lession-2",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "",
+  "repository": "https://github.com/daviroquedev/digitalcollege-lession-2.git",
   "author": "Davi Roque <sowdavi@gmail.com>",
   "license": "MIT",
   "scripts": {
