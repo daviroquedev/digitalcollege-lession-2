@@ -2,8 +2,8 @@
   "name": "digital-college-lession-2",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:cicerohen/digital-college-lession-2.git",
-  "author": "Cicero Viana <cicerohen@gmail.com>",
+  "repository": "",
+  "author": "Davi Roque <sowdavi@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "yarn build:dev",
